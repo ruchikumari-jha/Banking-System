@@ -1,0 +1,11 @@
+{
+  "name": "banking-system-root",
+  "private": true,
+  "scripts": {
+    "install:client": "npm --prefix ./Banking_System/Banking_system install",
+    "dev": "npm --prefix ./Banking_System/Banking_system run dev",
+    "build": "npm --prefix ./Banking_System/Banking_system run build",
+    "preview": "npm --prefix ./Banking_System/Banking_system run preview",
+    "lint": "npm --prefix ./Banking_System/Banking_system run lint"
+  }
+}
